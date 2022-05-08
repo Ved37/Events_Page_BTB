@@ -1,0 +1,48 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
+.App{
+  width: 100%;
+  height: 100%;
+}
+.hexagon{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  z-index: -1;
+}
+.hexagon_img{
+  height: 120px;
+}
+.event-title, .title-1{
+  width: 100%;
+  position: relative;
+  padding-top: 50px;
+  vertical-align: middle;
+  font-family: 'Metropolis','sans-serif';
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+.event-title{
+  text-align: center;
+  font-size: 3em;
+  font-weight: 500;
+}
+.title-1{
+  width: 93%;
+  display: block;
+  left: 7%;
+  text-align: left;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.card-slider {
+  margin: 1.3vw 7vw 2vw 7vw;
+  text-align: center;
+  font-family: 'Metropolis';
+}
+.slick-prev{
+  left: -5vw !important;
+}
+.slick-next{
+  right: -3.7vw !important;
+}
