@@ -6,8 +6,8 @@
     border-radius: 12.1968px;
 }
 .rectangle{
-    height: 110px;
-    width: 210px;
+    height: 140px;
+    width: 260px;
     border-radius: 12.1968px;
     padding: 9px 9px 0px 9px;
 }
@@ -16,7 +16,8 @@
     font-family: 'Metropolis','sans-serif';
 }
 .line-1{
-    margin: 1px 0px 0px 10px;
+    margin: 4px 0px 0px 10px;
+    text-align: left;
 }
 .light-gray{
     color: #87838C;
@@ -29,8 +30,11 @@
 }
 .red-btn{
     background: #DE4139;
+    color: #FFFFFF;
     height: 30px;
-    margin: 15px 0px 15px 0px;
+    width:120px;
+    font-family: 'Metropolis','sans-serif';
+    margin: 25px 0px 25px 0px;
     border: none;
     border-radius: 4.69185px;
 }

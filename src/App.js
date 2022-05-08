@@ -41,7 +41,7 @@ function App(props) {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 6,
+    slidesToShow: 4,
     slidesToScroll: 2,
     nextArrow: <img src={next_img} alt="next_card_button"/>,
     prevArrow: <img src={prev_img} alt="prev_card_button"/>,
@@ -53,14 +53,14 @@ function App(props) {
       {
         breakpoint: 1734,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 3,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 1444,
+        breakpoint: 1365,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
           slidesToScroll: 1,
         },
       },
@@ -72,14 +72,21 @@ function App(props) {
         },
       },
       {
-        breakpoint: 828,
+        breakpoint: 996,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 555,
+        breakpoint: 714,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 450,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
