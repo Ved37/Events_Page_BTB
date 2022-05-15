@@ -53,7 +53,7 @@ function App(props) {
       {
         breakpoint: 1734,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 4,
           slidesToScroll: 1,
         },
       },
@@ -110,7 +110,7 @@ function App(props) {
           <Card/>
         </Slider>
       </div>
-      <div className="title-1">UPCOMING HACKATHONS</div>
+      <div className="title-1">MENTOR TALKS</div>
       <div className="card-slider">
         <Slider {...settings}>
           <Card/>
